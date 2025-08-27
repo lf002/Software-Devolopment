@@ -1,3 +1,4 @@
+
 var_1 = input("Please enter your first number:")
 var_2 = input("Please enter your second number:")
 
@@ -22,5 +23,3 @@ print(f"{var_1} * {var_2} = {product}")
 # Division
 quotient = var_1 / var_2
 print(f"{var_1} / {var_2} = {quotient}")
-
-

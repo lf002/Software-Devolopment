@@ -38,3 +38,5 @@ y -= 10
 print(y)
 y -= y + 50
 print(y)
+
+print(3 ** 17)
