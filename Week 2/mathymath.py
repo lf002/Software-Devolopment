@@ -40,3 +40,6 @@ y -= y + 50
 print(y)
 
 print(3 ** 17)
+
+
+print(3 + 5 + 6)
