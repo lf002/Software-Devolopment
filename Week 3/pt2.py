@@ -27,3 +27,11 @@ print("Your Jedi name is:", full_name)
 
 message = "May the force be with you, " + full_name + "!"
 print(message)
+starships = ["Millennium Falcon", "X-Wing", "TIE Fighter"]
+print("Initial starship fleet:", starships)
+starships.append("Star Destroyer")
+
+print("The first starship ready for battle is:", starships [0])
+print("The last starship in formation is:", starships [-1])
+
+             
