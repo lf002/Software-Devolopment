@@ -1,30 +1,21 @@
 weight = float(input("Please Enter Your Weight: "))
 
+planets = {
+    "mercury": 0.90,
+    "venus": 0.91,
+    "mars": 0.38,
+    "jupiter": 2.34,
+    "saturn": 1.06,
+    "uranus": 0.92,
+    "neptune": 1.19,
+    "pluto": 0.063
+}
 
-mercury_weight = weight * 0.90
-venus_weight = weight * 0.91
-mars_weight = weight * 0.38
-jupiter_weight = weight * 2.34
-saturn_weight = weight * 1.06
-uranus_weight = weight * 0.92
-neptune_weight = weight * 1.19
-pluto_weight = weight * 0.063
-
-print("Your weight on mercury is", mercury_weight)
-print("Your weight on venus is", venus_weight)
-print("Your weight on mars is", mars_weight)
-print("Your weight on jupiter us", jupiter_weight)
-print("Your weight on saturn is", saturn_weight)
-print("Your weight on uranus is", uranus_weight)
-print("Your weight on neptune is", neptune_weight)
-print("Your weight on pluto is", pluto_weight)
+for planet, factor in planets.items():
+    planet_weight = round(weight * factor, 2)
+    print(f"Your weight on {planet} is {planet_weight}")
 
 print("Have a good day")
-
-
-
-
-
 
 
 
