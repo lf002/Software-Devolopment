@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pyautogui as pg
 import time
 import sys
@@ -28,4 +29,36 @@ print("Move the mouse to top left, or press Ctrl+C to abort")
 # # Infinite loop
 # while True:
 #     send_vote()
+=======
+import pyautogui as pg
+import time
+import sys
+
+try:
+    while True:
+        x, y = pg.position()
+        sys.stdout.write(f"\r(x, y) = ({x:4d}, {y:4d})")
+        sys.stdout.flush()
+        time.sleep(0.05)
+
+except KeyboardInterrupt:
+    print("\nDone")
+
+pg.FAILSAFE = True 
+print("Move the mouse to top left, or press Ctrl+C to abort")
+
+# def send_vote():
+#     pg.moveTo(747, 439)
+#     pg.click()
+#     pg.moveTo(752, 914)
+#     pg.sleep(0.6)
+#     pg.click()
+#     pg.moveTo(794, 246)
+#     pg.sleep(0.6)
+#     pg.click()
+
+# # Infinite loop
+# while True:
+#     send_vote()
+>>>>>>> ba4b388bef6d2e75ff26c636f0835e8aaaa794d5
 #     time.sleep(1)

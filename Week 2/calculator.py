@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 var_1 = input("Please enter your first number:")
 var_2 = input("Please enter your second number:")
@@ -23,3 +24,30 @@ print(f"{var_1} * {var_2} = {product}")
 # Division
 quotient = var_1 / var_2
 print(f"{var_1} / {var_2} = {quotient}")
+=======
+
+var_1 = input("Please enter your first number:")
+var_2 = input("Please enter your second number:")
+
+
+var_1 = float(var_1)
+var_2 = float(var_2)
+
+
+
+# Addition
+sum = var_1 + var_2
+print(f"{var_1} + {var_2} = {sum}")
+
+# Subtraction
+difference = var_1-var_2
+print(f"{var_1} - {var_2} = {difference}")
+
+# Product
+product = var_1 * var_2
+print(f"{var_1} * {var_2} = {product}")
+
+# Division
+quotient = var_1 / var_2
+print(f"{var_1} / {var_2} = {quotient}")
+>>>>>>> ba4b388bef6d2e75ff26c636f0835e8aaaa794d5
